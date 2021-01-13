@@ -8,12 +8,6 @@
 import ListItem from '../components/ListItem.vue'
 
 export default {
-  // created() {
-  //   this.$store.dispatch('FETCH_ASKS');
-  // },
-  // computed: {
-  //   ...mapGetters(['GET_ASKS'])
-  // },
   components: {
     ListItem
   }
