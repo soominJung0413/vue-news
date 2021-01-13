@@ -20,14 +20,17 @@ export const router = new VueRouter({
         {
             // path : url , component : Vue Component
             path: '/news',
+            name: 'news',
             component: NewsView,
         },
         {
             path: '/ask',
+            name: 'asks',
             component: AskView,
         },
         {
             path: '/jobs',
+            name: 'jobs',
             component: JobsView,
         },
         {
